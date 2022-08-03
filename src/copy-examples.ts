@@ -6,9 +6,18 @@ export async function copyExamples() {
 }
 
 function pasteExample(item: ExampleItem) {
-  console.log(item);
+  const activeTextEditor = vscode.window.activeTextEditor;
 
-  // to do https://github.com/chkware/vscode-ext/issues/4
+  activeTextEditor &&
+    activeTextEditor
+      .edit(function (textInserter) {
+        textInserter.delete(activeTextEditor.selection); // delete selected text if there's any
+      })
+      .then(function () {
+        activeTextEditor.edit(function (textInserter) {
+          textInserter.insert(activeTextEditor.selection.start, item.snippet);
+        });
+      });
 }
 
 async function createQuickPickExamples() {
