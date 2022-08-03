@@ -20,8 +20,8 @@ function pasteExample(item: ExampleItem) {
       });
 }
 
-async function createQuickPickExamples() {
-  await vscode.window
+function createQuickPickExamples() {
+  vscode.window
     .showQuickPick(examples, {
       placeHolder: 'Select an example',
     })
