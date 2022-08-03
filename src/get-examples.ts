@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 import examples, { ExampleItem } from './examples';
 
-export async function copyExamples() {
+export async function getExamples() {
   createQuickPickExamples();
 }
 
