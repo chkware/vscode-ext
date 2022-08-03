@@ -1,11 +1,11 @@
 import * as vscode from 'vscode';
-import { copyExamples } from './copy-examples';
+import { getExamples } from './get-examples';
 
 export function activate(context: vscode.ExtensionContext) {
   let disposable = vscode.commands.registerCommand(
-    'chkware.copyExamples',
+    'chkware.getExamples',
     () => {
-      copyExamples();
+      getExamples();
     }
   );
 

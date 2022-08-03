@@ -10,14 +10,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:chkware.copyExamples"
+    "onCommand:chkware.getExamples"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "chkware.copyExamples",
-        "title": "Copy Examples",
+        "command": "chkware.getExamples",
+        "title": "Get Examples",
         "category": "Chkware"
       }
     ]
