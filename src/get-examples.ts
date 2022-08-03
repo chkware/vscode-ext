@@ -17,11 +17,11 @@ async function pasteExample(item: ExampleItem) {
   }
 
   // delete selected text if there's any
-  await activeTextEditor.edit((editBuilder) => {
+  await activeTextEditor.edit((editBuilder: vscode.TextEditorEdit) => {
     editBuilder.delete(activeTextEditor.selection);
   });
 
-  await activeTextEditor.edit((editBuilder) => {
+  await activeTextEditor.edit((editBuilder: vscode.TextEditorEdit) => {
     editBuilder.insert(activeTextEditor.selection.start, item.snippet);
   });
 }
