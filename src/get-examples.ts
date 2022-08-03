@@ -10,12 +10,12 @@ function pasteExample(item: ExampleItem) {
 
   activeTextEditor &&
     activeTextEditor
-      .edit(function (textInserter) {
-        textInserter.delete(activeTextEditor.selection); // delete selected text if there's any
+      .edit((editBuilder) => {
+        editBuilder.delete(activeTextEditor.selection); // delete selected text if there's any
       })
       .then(function () {
-        activeTextEditor.edit(function (textInserter) {
-          textInserter.insert(activeTextEditor.selection.start, item.snippet);
+        activeTextEditor.edit((editBuilder) => {
+          editBuilder.insert(activeTextEditor.selection.start, item.snippet);
         });
       });
 }
