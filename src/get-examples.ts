@@ -2,30 +2,26 @@ import * as vscode from 'vscode';
 import examples, { ExampleItem } from './examples';
 
 export async function getExamples() {
-  createQuickPickExamples();
+  const item = await vscode.window.showQuickPick(examples, {
+    placeHolder: 'Select an example',
+  });
+
+  item && pasteExample(item);
 }
 
-function pasteExample(item: ExampleItem) {
+async function pasteExample(item: ExampleItem) {
   const activeTextEditor = vscode.window.activeTextEditor;
 
-  activeTextEditor &&
-    activeTextEditor
-      .edit((editBuilder) => {
-        editBuilder.delete(activeTextEditor.selection); // delete selected text if there's any
-      })
-      .then(function () {
-        activeTextEditor.edit((editBuilder) => {
-          editBuilder.insert(activeTextEditor.selection.start, item.snippet);
-        });
-      });
-}
+  if (!activeTextEditor) {
+    return;
+  }
 
-function createQuickPickExamples() {
-  vscode.window
-    .showQuickPick(examples, {
-      placeHolder: 'Select an example',
-    })
-    .then((item) => {
-      item && pasteExample(item);
-    });
+  // delete selected text if there's any
+  await activeTextEditor.edit((editBuilder) => {
+    editBuilder.delete(activeTextEditor.selection);
+  });
+
+  await activeTextEditor.edit((editBuilder) => {
+    editBuilder.insert(activeTextEditor.selection.start, item.snippet);
+  });
 }
