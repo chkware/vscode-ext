@@ -7,4 +7,5 @@ This is the README for the extension "chkware".
 - press `f5`
 - wait for the new window to be opened
 - open command palette by pressing `ctrl` + `shift` + `p`
-- search for `Chkware`
+- search for `Chkware` commands
+- upon new code changes, run `Developer: Reload Window` in the new window from command palette
