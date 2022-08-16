@@ -1,7 +1,7 @@
 import { ExampleItem } from '.';
 
 export default <ExampleItem>{
-  label: 'http: POST with header and bearer token',
+  label: 'http: POST with JSON body',
   description: '',
   snippet: `
   ---
