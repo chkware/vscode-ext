@@ -1,16 +1,18 @@
 import { ExampleItem } from '.';
 
 export default <ExampleItem>{
-  label: 'Request with query string',
+  label: 'http: GET with query string',
   description: '',
   snippet: `
-    ---
-    # put variables as url_params entry
-    request:
-    url: https://example.org/api/path
-    method: GET
-    url_params:
-        foo: bar
-        two: 2
-    `,
+---
+version: default:http:0.7.2
+
+request:
+  url: https://httpbin.org/get
+
+  url_params:
+    foo: bar
+    two: 2
+  method: GET
+`,
 };
