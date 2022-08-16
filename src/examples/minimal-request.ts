@@ -1,14 +1,14 @@
 import { ExampleItem } from '.';
 
 export default <ExampleItem>{
-  label: 'Minimal request',
+  label: 'http: Minimal request',
   description: '',
   snippet: `
 ---
 version: default:http:0.7.2
 
 request:
-  url: https://example.org/api/path
+  url: https://httpbin.org/get
   method: GET
 `,
 };
