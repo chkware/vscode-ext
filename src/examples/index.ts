@@ -1,5 +1,5 @@
 import minimalRequest from './minimal-request';
-import requestWithQueryString from './request-with-query-string';
+import httpGETWithURLParams from './http-get-with-query-string';
 
 export interface ExampleItem {
   label: string;
@@ -7,4 +7,4 @@ export interface ExampleItem {
   snippet: string;
 }
 
-export default [minimalRequest, requestWithQueryString];
+export default [minimalRequest, httpGETWithURLParams];
