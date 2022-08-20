@@ -31,7 +31,8 @@
     "lint:fix": "eslint --ext .ts,.tsx --fix .",
     "prettier": "prettier --check './**/*.{js,jsx,ts,tsx,css,md,json}'",
     "prettier:fix": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}'",
-    "test": "node ./out/test/runTest.js"
+    "test": "node ./out/test/runTest.js",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@types/glob": "^7.2.0",
