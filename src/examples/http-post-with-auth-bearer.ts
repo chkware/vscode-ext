@@ -1,8 +1,8 @@
-import { ExampleItem } from '.';
+import { ExampleItem } from ".";
 
 export default <ExampleItem>{
-  label: 'http: POST with header and bearer token',
-  description: '',
+  label: "http: POST with header and bearer token",
+  description: "",
   snippet: `
 ---
 version: default:http:0.7.2

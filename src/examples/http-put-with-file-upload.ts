@@ -1,8 +1,8 @@
-import { ExampleItem } from '.';
+import { ExampleItem } from ".";
 
 export default <ExampleItem>{
-  label: 'http: PUT with file upload',
-  description: '',
+  label: "http: PUT with file upload",
+  description: "",
   snippet: `
 ---
 version: default:http:0.7.2

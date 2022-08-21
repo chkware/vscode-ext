@@ -1,8 +1,8 @@
-import { ExampleItem } from '.';
+import { ExampleItem } from ".";
 
 export default <ExampleItem>{
-  label: 'http: GET with query string',
-  description: '',
+  label: "http: GET with query string",
+  description: "",
   snippet: `
 ---
 version: default:http:0.7.2

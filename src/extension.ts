@@ -1,9 +1,9 @@
-import * as vscode from 'vscode';
-import { getExamples } from './get-examples';
+import * as vscode from "vscode";
+import { getExamples } from "./get-examples";
 
 export function activate(context: vscode.ExtensionContext) {
   const disposable = vscode.commands.registerCommand(
-    'chkware.getExamples',
+    "chkware.getExamples",
     () => {
       getExamples();
     }

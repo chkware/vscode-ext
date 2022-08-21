@@ -1,9 +1,9 @@
-import * as vscode from 'vscode';
-import examples, { ExampleItem } from './examples';
+import * as vscode from "vscode";
+import examples, { ExampleItem } from "./examples";
 
 export async function getExamples(): Promise<void> {
   const item = await vscode.window.showQuickPick(examples, {
-    placeHolder: 'Select an example',
+    placeHolder: "Select an example",
   });
 
   item && pasteExample(item);
@@ -22,7 +22,7 @@ async function pasteExample(item: ExampleItem): Promise<void> {
   } else {
     vscode.workspace.openTextDocument({
       content: item.snippet,
-      language: 'yaml',
+      language: "yaml",
     });
   }
 }
