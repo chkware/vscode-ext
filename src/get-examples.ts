@@ -21,7 +21,7 @@ async function pasteExample(item: ExampleItem): Promise<void> {
     });
   } else {
     vscode.workspace.openTextDocument({
-      content: item.snippet,
+      content: item.snippet, //
       language: "yaml",
     });
   }
