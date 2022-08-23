@@ -12,7 +12,7 @@ export interface ExampleItem {
 }
 
 export default [
-  minimalRequest, 
+  minimalRequest,
   httpGETWithURLParams,
   httpPOSTWithAuthBearer,
   httpPOSTWithFormSubmit,

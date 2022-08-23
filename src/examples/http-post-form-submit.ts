@@ -1,8 +1,8 @@
-import { ExampleItem } from '.';
+import { ExampleItem } from ".";
 
 export default <ExampleItem>{
-  label: 'http: POST form submit',
-  description: '',
+  label: "http: POST form submit",
+  description: "",
   snippet: `
 ---
 version: default:http:0.7.2

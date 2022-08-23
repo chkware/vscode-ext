@@ -1,8 +1,8 @@
-import { ExampleItem } from '.';
+import { ExampleItem } from ".";
 
 export default <ExampleItem>{
-  label: 'http: POST with JSON body',
-  description: '',
+  label: "http: POST with JSON body",
+  description: "",
   snippet: `
 ---
 version: default:http:0.7.2

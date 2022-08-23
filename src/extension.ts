@@ -1,9 +1,9 @@
-import * as vscode from 'vscode';
-import { getExamples } from './get-examples';
+import * as vscode from "vscode";
+import { getExamples } from "./get-examples";
 
 export function activate(context: vscode.ExtensionContext) {
-  let disposable = vscode.commands.registerCommand(
-    'chkware.getExamples',
+  const disposable = vscode.commands.registerCommand(
+    "chkware.getExamples",
     () => {
       getExamples();
     }
@@ -12,4 +12,6 @@ export function activate(context: vscode.ExtensionContext) {
   context.subscriptions.push(disposable);
 }
 
-export function deactivate() {}
+export function deactivate() {
+  //
+}
