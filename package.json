@@ -1,7 +1,7 @@
 {
   "name": "chkware",
-  "displayName": "Chkware",
-  "description": "Visual studio code extension for chkware",
+  "displayName": "chkware",
+  "description": "chkware extension for Visual Studio Code",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.69.0"
@@ -18,7 +18,7 @@
       {
         "command": "chkware.getExamples",
         "title": "Get Examples",
-        "category": "Chkware"
+        "category": "chkware"
       }
     ]
   },
