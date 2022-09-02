@@ -3,11 +3,26 @@
   "displayName": "chkware",
   "description": "chkware extension for Visual Studio Code",
   "version": "0.0.1",
+  "publisher": "chkware",
+  "license": "MPL v2.0",
+  "icon": "icon.png",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/chkware/vscode-ext.git"
+	},
+	"bugs": {
+		"url": "https://github.com/chkware/vscode-ext/issues"
+	},
   "engines": {
     "vscode": "^1.69.0"
   },
   "categories": [
-    "Other"
+    "Programming Languages",
+    "Debuggers",
+    "Linters",
+    "Formatters",
+    "Other",
+    "Testing"
   ],
   "activationEvents": [
     "onCommand:chkware.getExamples"
@@ -62,5 +77,15 @@
     "*.{md}": [
       "prettier --write"
     ]
-  }
+  },
+  "keywords": [
+    "chkware",
+    "testing",
+    "unittest",
+    "multi-root ready",
+    "Programming Languages",
+    "Debuggers",
+    "Linters",
+    "Formatters"
+  ]
 }
