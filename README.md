@@ -2,6 +2,18 @@
 
 The [**chkware**](https://chkware.github.io/) (pronounced as /check:ware/) extension for Visual Studio Code adds editing features for `.chk` files.
 
+<p align="center">
+    <a href="https://marketplace.visualstudio.com/items?itemName=chkware.chkware">
+        <img src="https://img.shields.io/visual-studio-marketplace/v/chkware.chkware">
+    </a>
+    <a href="https://github.com/chkware/vscode-ext/blob/main/LICENSE">
+        <img src="https://img.shields.io/github/license/chkware/vscode-ext">
+    </a>
+    <a href="https://twitter.com/chkware">
+        <img src="https://img.shields.io/twitter/follow/chkware?style=social">
+    </a>
+</p>
+
 ---
 
 ## Quick start
@@ -26,7 +38,7 @@ Make sure you are doing [these steps](https://chkware.github.io/setup#setup-deve
 
 ## Usage
 
-Using VS Code [command palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) you can quickly select a snippet from added samples. 
+Using VS Code [command palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) you can quickly select a snippet from added samples.
 
 - Use `⇧⌘P` on Mac, `Ctrl+Shift+P` on Windows, and `Ctrl+Shift+P` on Linux to bring up command palette.
 - Select a sample you desire to use. <br><br>
