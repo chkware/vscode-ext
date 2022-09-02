@@ -7,12 +7,12 @@
   "license": "MPL v2.0",
   "icon": "icon.png",
   "repository": {
-		"type": "git",
-		"url": "https://github.com/chkware/vscode-ext.git"
-	},
-	"bugs": {
-		"url": "https://github.com/chkware/vscode-ext/issues"
-	},
+    "type": "git",
+    "url": "https://github.com/chkware/vscode-ext.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chkware/vscode-ext/issues"
+  },
   "engines": {
     "vscode": "^1.69.0"
   },
