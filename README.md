@@ -18,7 +18,7 @@ The [**chkware**](https://chkware.github.io/) (pronounced as /check:ware/) exten
 
 ## Quick start
 
-Get started writing `chkware` configurations with VS Code doing steps:
+Get started writing `chkware` configurations with VS Code doing following steps:
 
 - Step 1: If you haven't done so already, install [chkware](https://chkware.github.io/setup#install-chkware-toolset-with-pipx)
 
