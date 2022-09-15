@@ -1,10 +1,11 @@
 import minimalRequest from "./minimal-request";
-import httpGETWithURLParams from "./http-get-with-query-string";
-import httpPOSTWithAuthBearer from "./http-post-with-auth-bearer";
-import httpPOSTWithFormSubmit from "./http-post-form-submit";
-import httpPOSTWithJSONBody from "./http-post-with-json-body";
-import httpPUTWithFileUpload from "./http-put-with-file-upload";
+import { httpGETWithURLParams } from "./examples";
+import { httpPOSTWithAuthBearer } from "./examples";
+import { httpPOSTWithFormSubmit } from "./examples";
+import { httpPOSTWithJSONBody } from "./examples";
+import { httpPUTWithFileUpload } from "./examples";
 
+console.log(httpGETWithURLParams);
 export interface ExampleItem {
   label: string;
   description: string;
