@@ -1,9 +1,11 @@
 import minimalRequest from "./minimal-request";
-import { httpGETWithURLParams } from "./examples";
-import { httpPOSTWithAuthBearer } from "./examples";
-import { httpPOSTWithFormSubmit } from "./examples";
-import { httpPOSTWithJSONBody } from "./examples";
-import { httpPUTWithFileUpload } from "./examples";
+import {
+  httpGETWithURLParams,
+  httpPOSTWithAuthBearer,
+  httpPOSTWithFormSubmit,
+  httpPOSTWithJSONBody,
+  httpPUTWithFileUpload,
+} from "./http";
 
 console.log(httpGETWithURLParams);
 export interface ExampleItem {
