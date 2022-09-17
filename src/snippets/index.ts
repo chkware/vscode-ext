@@ -7,7 +7,6 @@ import {
   minimalRequest,
 } from "./http";
 
-console.log(httpGETWithURLParams);
 export interface ExampleItem {
   label: string;
   description: string;
