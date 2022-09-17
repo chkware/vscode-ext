@@ -1,5 +1,5 @@
 import * as vscode from "vscode";
-import examples, { ExampleItem } from "./examples";
+import examples, { ExampleItem } from "./snippets";
 
 export async function getExamples(): Promise<void> {
   const item = await vscode.window.showQuickPick(examples, {

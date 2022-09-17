@@ -111,3 +111,16 @@ export const httpPUTWithFileUpload = <ExampleItem>{
       cover_photo: file:///home/username/student-cvphoto-01.png
   `,
 };
+
+export const minimalRequest = <ExampleItem>{
+  label: "http: Minimal request",
+  description: "",
+  snippet: `
+  ---
+  version: default:http:0.7.2
+
+  request:
+    url: https://httpbin.org/get
+    method: GET
+  `,
+};

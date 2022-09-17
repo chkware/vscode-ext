@@ -1,10 +1,10 @@
-import minimalRequest from "./minimal-request";
 import {
   httpGETWithURLParams,
   httpPOSTWithAuthBearer,
   httpPOSTWithFormSubmit,
   httpPOSTWithJSONBody,
   httpPUTWithFileUpload,
+  minimalRequest,
 } from "./http";
 
 console.log(httpGETWithURLParams);
