@@ -21,9 +21,6 @@
     "color": "#FFF",
     "theme": "light"
   },
-  "extensionKind": [
-    "ui"
-  ],
   "categories": [
     "Programming Languages",
     "Debuggers",
