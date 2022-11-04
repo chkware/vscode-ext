@@ -1,6 +1,6 @@
-import { ExampleItem } from ".";
+import { SnippetItem } from ".";
 
-export const httpGETWithURLParams = <ExampleItem>{
+export const httpGETWithURLParams = <SnippetItem>{
   label: "http: GET with query string",
   description: "",
   snippet: `
@@ -17,7 +17,7 @@ request:
 `,
 };
 
-export const httpPOSTWithAuthBearer = <ExampleItem>{
+export const httpPOSTWithAuthBearer = <SnippetItem>{
   label: "http: POST form submit",
   description: "",
   snippet: `
@@ -46,7 +46,7 @@ export const httpPOSTWithAuthBearer = <ExampleItem>{
   `,
 };
 
-export const httpPOSTWithFormSubmit = <ExampleItem>{
+export const httpPOSTWithFormSubmit = <SnippetItem>{
   label: "http: POST with header and bearer token",
   description: "",
   snippet: `
@@ -66,7 +66,7 @@ export const httpPOSTWithFormSubmit = <ExampleItem>{
   `,
 };
 
-export const httpPOSTWithJSONBody = <ExampleItem>{
+export const httpPOSTWithJSONBody = <SnippetItem>{
   label: "http: POST with JSON body",
   description: "",
   snippet: `
@@ -86,7 +86,7 @@ export const httpPOSTWithJSONBody = <ExampleItem>{
   `,
 };
 
-export const httpPUTWithFileUpload = <ExampleItem>{
+export const httpPUTWithFileUpload = <SnippetItem>{
   label: "http: PUT with file upload",
   description: "",
   snippet: `
@@ -112,7 +112,7 @@ export const httpPUTWithFileUpload = <ExampleItem>{
   `,
 };
 
-export const minimalRequest = <ExampleItem>{
+export const minimalRequest = <SnippetItem>{
   label: "http: Minimal request",
   description: "",
   snippet: `
