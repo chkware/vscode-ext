@@ -1,11 +1,11 @@
 import * as vscode from "vscode";
-import { getExamples } from "./get-examples";
+import { addHttpSnippet } from "./add-http-snippet";
 
 export function activate(context: vscode.ExtensionContext) {
   const disposable = vscode.commands.registerCommand(
-    "chkware.getExamples",
+    "chkware.addHttpSnippet",
     () => {
-      getExamples();
+      addHttpSnippet();
     }
   );
 

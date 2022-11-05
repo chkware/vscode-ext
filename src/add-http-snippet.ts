@@ -1,15 +1,15 @@
 import * as vscode from "vscode";
-import examples, { ExampleItem } from "./snippets";
+import snippets, { SnippetItem } from "./snippets";
 
-export async function getExamples(): Promise<void> {
-  const item = await vscode.window.showQuickPick(examples, {
-    placeHolder: "Select an example",
+export async function addHttpSnippet(): Promise<void> {
+  const item = await vscode.window.showQuickPick(snippets, {
+    placeHolder: "Select a snippet",
   });
 
-  item && pasteExample(item);
+  item && pasteSnippet(item);
 }
 
-async function pasteExample(item: ExampleItem): Promise<void> {
+async function pasteSnippet(item: SnippetItem): Promise<void> {
   const activeTextEditor: vscode.TextEditor | undefined =
     vscode.window.activeTextEditor;
 

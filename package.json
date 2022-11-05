@@ -30,14 +30,14 @@
     "Testing"
   ],
   "activationEvents": [
-    "onCommand:chkware.getExamples"
+    "onCommand:chkware.addHttpSnippet"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "chkware.getExamples",
-        "title": "Get Examples",
+        "command": "chkware.addHttpSnippet",
+        "title": "Add Http Snippet",
         "category": "chkware"
       }
     ]

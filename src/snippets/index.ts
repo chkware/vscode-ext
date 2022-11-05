@@ -7,7 +7,7 @@ import {
   minimalRequest,
 } from "./http";
 
-export interface ExampleItem {
+export interface SnippetItem {
   label: string;
   description: string;
   snippet: string;
