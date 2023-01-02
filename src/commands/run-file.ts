@@ -52,13 +52,14 @@ function getFileInfo(textDocument: vscode.TextDocument): {
 }
 
 function getCommandType(code: string): string | undefined {
+  // version: default:http:0.7.2 | version: 'default:http:0.7.2' | version: "default:http:0.7.2"
   const pattern = /version: *(?:'|")?default:([^'"]*)(?:'|")?/;
 
-  const match = code.match(pattern);
+  const match = code.match(pattern); // http:0.7.2
 
   if (match && match[1]) {
     const commandType = match[1].split(":");
 
-    return commandType[0];
+    return commandType[0]; // http
   }
 }
