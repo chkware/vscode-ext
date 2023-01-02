@@ -39,10 +39,23 @@
         "command": "chkware.addHttpSnippet",
         "title": "Add Http spec. snippet",
         "category": "CHKware"
-      }, {
+      },
+      {
         "command": "chkware.addTestCaseSnippet",
         "title": "Add Testcase spec. snippet",
         "category": "CHKware"
+      },
+      {
+        "command": "chkware.runFile",
+        "title": "Run file",
+        "category": "CHKware"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "chkware.runFile",
+        "key": "alt+ctrl+r",
+        "mac": "opt+ctrl+r"
       }
     ]
   },
