@@ -30,7 +30,8 @@
     "Testing"
   ],
   "activationEvents": [
-    "onCommand:chkware.addHttpSnippet"
+    "onCommand:chkware.addHttpSnippet",
+    "onCommand:chkware.runFile"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -39,6 +40,18 @@
         "command": "chkware.addHttpSnippet",
         "title": "Add Http Snippet",
         "category": "chkware"
+      },
+      {
+        "command": "chkware.runFile",
+        "title": "Run file",
+        "category": "chkware"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "chkware.runFile",
+        "key": "ctrl+i ctrl+i",
+        "mac": "cmd+i cmd+i"
       }
     ]
   },
