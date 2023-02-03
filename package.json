@@ -96,7 +96,7 @@
       "eslint --fix",
       "prettier --write"
     ],
-    "*.{md}": [
+    "*.md": [
       "prettier --write"
     ]
   },
