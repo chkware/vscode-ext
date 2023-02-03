@@ -6,7 +6,7 @@ export async function runFile(): Promise<void> {
     vscode.window.activeTextEditor;
 
   if (!activeTextEditor) {
-    vscode.window.showWarningMessage("Please open a chk file first.");
+    vscode.window.showWarningMessage("Please open a .chk file first.");
     return;
   }
 
@@ -18,7 +18,7 @@ export async function runFile(): Promise<void> {
 
   // check file extension and command type
   if (!openedFileName.endsWith(".chk") || !commandType) {
-    vscode.window.showWarningMessage("Not a valid chk file to run.");
+    vscode.window.showWarningMessage("Not a valid .chk file to run.");
     return;
   }
 
@@ -52,7 +52,7 @@ function getFileInfo(textDocument: vscode.TextDocument): {
 }
 
 function getCommandType(code: string): string | undefined {
-  // version: default:http:0.7.2 | version: 'default:http:0.7.2' | version: "default:http:0.7.2"
+  // e.g.: version: default:http:0.7.2 | version: 'default:http:0.7.2' | version: "default:http:0.7.2"
   const pattern = /version: *(?:'|")?default:([^'"]*)(?:'|")?/;
 
   const match = code.match(pattern); // http:0.7.2
