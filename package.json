@@ -47,6 +47,14 @@
         "category": "CHKware"
       }
     ],
+    "menus": {
+      "commandPalette": [
+        {
+          "command": "chkware.runFile",
+          "when": "resourceExtname == .chk"
+        }
+      ]
+    },
     "keybindings": [
       {
         "command": "chkware.runFile",
