@@ -7,6 +7,12 @@ import {
   minimalRequest,
 } from "./http";
 
+import {
+  testCaseMinWithHttp,
+  testCaseWithFile,
+  testCaseWithFilePassVars,
+} from "./testcase";
+
 export interface SnippetItem {
   label: string;
   description: string;
@@ -20,4 +26,10 @@ export const httpSnippets = [
   httpPOSTWithFormSubmit,
   httpPOSTWithJSONBody,
   httpPUTWithFileUpload,
+];
+
+export const testCaseSnippets = [
+  testCaseMinWithHttp,
+  testCaseWithFile,
+  testCaseWithFilePassVars,
 ];
