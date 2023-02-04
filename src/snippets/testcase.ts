@@ -1,7 +1,7 @@
 import { SnippetItem } from ".";
 
 export const testCaseMinWithHttp = <SnippetItem>{
-  label: "testcase: minimal with http request",
+  label: "testcase: Minimal spec. with http request",
   description: "",
   snippet: `---
 version: default:testcase:0.7.2
@@ -17,7 +17,7 @@ spec:
 };
 
 export const testCaseWithFile = <SnippetItem>{
-  label: "testcase: With file",
+  label: "testcase: Spec. with external file in request",
   description: "",
   snippet: `---
 version: default:testcase:0.7.2
@@ -31,7 +31,7 @@ spec:
 };
 
 export const testCaseWithFilePassVars = <SnippetItem>{
-  label: "testcase: With file passing variables",
+  label: "testcase: Spec. with passing variables to external file",
   description: "",
   snippet: `---
 version: default:testcase:0.7.2
