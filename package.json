@@ -30,7 +30,8 @@
     "Testing"
   ],
   "activationEvents": [
-    "onCommand:chkware.addHttpSnippet"
+    "onCommand:chkware.addHttpSnippet",
+    "onCommand:chkware.addTestCaseSnippet"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -38,7 +39,11 @@
       {
         "command": "chkware.addHttpSnippet",
         "title": "Add Http Snippet",
-        "category": "chkware"
+        "category": "CHKware"
+      }, {
+        "command": "chkware.addTestCaseSnippet",
+        "title": "Add Testcase Snippet",
+        "category": "CHKware"
       }
     ]
   },
