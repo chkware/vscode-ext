@@ -1,8 +1,8 @@
 import * as vscode from "vscode";
-import snippets, { SnippetItem } from "./snippets";
+import { httpSnippets, SnippetItem } from "./snippets";
 
 export async function addHttpSnippet(): Promise<void> {
-  const item = await vscode.window.showQuickPick(snippets, {
+  const item = await vscode.window.showQuickPick(httpSnippets, {
     placeHolder: "Select a snippet",
   });
 

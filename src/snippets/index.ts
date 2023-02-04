@@ -13,7 +13,7 @@ export interface SnippetItem {
   snippet: string;
 }
 
-export default [
+export const httpSnippets = [
   minimalRequest,
   httpGETWithURLParams,
   httpPOSTWithAuthBearer,
