@@ -1,9 +1,9 @@
 {
   "name": "chkware",
-  "displayName": "chkware",
-  "description": "chkware (pronounced as /check:ware/) extension for Visual Studio Code",
-  "version": "0.1.0",
-  "publisher": "chkware",
+  "displayName": "CHKware",
+  "description": "Write and execute .chk spec files | CHKware • Low-code API quality testing, and automation toolbox.",
+  "version": "0.2.0",
+  "publisher": "CHKware",
   "license": "MPL-2.0",
   "icon": "icon.png",
   "repository": {
@@ -23,22 +23,26 @@
   },
   "categories": [
     "Programming Languages",
-    "Debuggers",
+    "Snippets",
     "Linters",
     "Formatters",
-    "Other",
     "Testing"
   ],
   "activationEvents": [
-    "onCommand:chkware.addHttpSnippet"
+    "onCommand:chkware.addHttpSnippet",
+    "onCommand:chkware.addTestCaseSnippet"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "chkware.addHttpSnippet",
-        "title": "Add Http Snippet",
-        "category": "chkware"
+        "title": "Add Http spec. snippet",
+        "category": "CHKware"
+      }, {
+        "command": "chkware.addTestCaseSnippet",
+        "title": "Add Testcase spec. snippet",
+        "category": "CHKware"
       }
     ]
   },
@@ -84,11 +88,14 @@
     ]
   },
   "keywords": [
-    "chkware",
+    "CHKware",
+    "RESTful API testing",
     "testing",
-    "Programming Languages",
-    "Debuggers",
-    "Linters",
-    "Formatters"
+    "API testing",
+    "API automation",
+    "API quality",
+    "API Debugger",
+    "API Linter",
+    "REST API Testing "
   ]
 }

@@ -1,8 +1,8 @@
-## `chkware` extension for Visual Studio Code
+## CHKware extension for Visual Studio Code
 
-The [**chkware**](https://chkware.github.io/) (pronounced as /check:ware/) extension for Visual Studio Code adds editing features for `.chk` files.
+Extension to modify `.chk` files on Visual Studio Code for [**CHKware**](https://chkware.github.io/) (pronounced as /tʃek-wer/, i.e. check-ware).
 
-<p align="center">
+<p>
     <a href="https://marketplace.visualstudio.com/items?itemName=chkware.chkware">
         <img src="https://img.shields.io/visual-studio-marketplace/v/chkware.chkware">
     </a>
@@ -18,23 +18,24 @@ The [**chkware**](https://chkware.github.io/) (pronounced as /check:ware/) exten
 
 ## Quick start
 
-Get started writing `chkware` configurations with VS Code doing following steps:
+Get started writing _**CHKware**_ configurations with VS Code doing following steps:
 
-- Step 1: If you haven't done so already, install [chkware](https://chkware.github.io/setup#install-chkware-toolset-with-pipx)
+- Step 1: If you haven't done so already, [_install **CHKware**_](https://chkware.github.io/setup).
 
-- Step 2: Install the `chkware` extension for VS Code
+- Step 2: Install the [_**CHKware** extension_](https://marketplace.visualstudio.com/items?itemName=chkware.chkware) for VS Code.
 
-New to `chkwere`? Read the [_quick start_](https://chkware.github.io/quick-start) guide here.
+New to CHKwere? Read the [_quick start_](https://chkware.github.io/quick-start) guide here.
 
 ## Setup development environment
 
-Make sure you are doing [these steps](https://chkware.github.io/setup#setup-development-environment-for-chkware-extension) to develop this extension further in your machine.
+Make sure you are following [these steps](https://chkware.github.io/setup/setup-ext-dev) to setup this extension code further in your machine for development.
 
 ---
 
 ## Features
 
-- Include sample snippet for `.chk` files for various document specifications.
+- Include sample snippet for Http, and Testcase spec. document.
+- Run chk command without leaving VS Code
 
 ## Usage
 
@@ -49,12 +50,15 @@ Using VS Code [command palette](https://code.visualstudio.com/docs/getstarted/us
 
 Following list of sample document specifications is supported
 
-- [http: Minimal request](https://chkware.github.io/Examples/http-examples#minimal-request-with-http-get-method)
+- [http: Minimal request](https://chkware.github.io/examples/http-examples#minimal-request-with-http-get-method)
 - [http: GET with query string](https://chkware.github.io/Examples/http-examples#request-with-query-string)
-- [http: POST with header and bearer token](https://chkware.github.io/Examples/http-examples#request-with-bearer-authentication-header)
-- [http: POST form submit](https://chkware.github.io/Examples/http-examples#request-with-form)
-- [http: POST with JSON body](https://chkware.github.io/Examples/http-examples#request-with-json-body)
-- [http: PUT with file upload](https://chkware.github.io/Examples/http-examples#request-with-file-upload)
+- [http: POST with header and bearer token](https://chkware.github.io/Examples/http-examples#request-without-a-body)
+- [http: POST form submit](https://chkware.github.io/examples/http-examples#request-with-form)
+- [http: POST with JSON body](https://chkware.github.io/examples/http-examples#request-with-json-body)
+- [http: PUT with file upload](https://chkware.github.io/examples/http-examples#request-with-file-upload)
+- [testcase: Minimal spec. with http request](https://chkware.github.io/examples/testcase-examples#a-minimal-testcase-with-in-file-request)
+- [testcase: Spec. with external file in request](https://chkware.github.io/examples/testcase-examples#a-minimal-testcase-with-out-file-request)
+- [testcase: Spec. with passing variables to external file](https://chkware.github.io/examples/testcase-examples#a-testcase-with-out-file-request-passing-data)
 
 ---
 
