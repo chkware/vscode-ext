@@ -1,6 +1,6 @@
 ## CHKware extension for Visual Studio Code
 
-The [**CHKware**](https://chkware.github.io/) (pronounced as /tʃek-wer/, i.e. check-ware) extension for Visual Studio Code adds easy modification features for `.chk` files.
+Extension to modify `.chk` files on Visual Studio Code for [**CHKware**](https://chkware.github.io/) (pronounced as /tʃek-wer/, i.e. check-ware).
 
 <p>
     <a href="https://marketplace.visualstudio.com/items?itemName=chkware.chkware">
@@ -20,9 +20,9 @@ The [**CHKware**](https://chkware.github.io/) (pronounced as /tʃek-wer/, i.e. c
 
 Get started writing _**CHKware**_ configurations with VS Code doing following steps:
 
-- Step 1: If you haven't done so already, install [_**CHKware**_](https://chkware.github.io/setup) by following this link.
+- Step 1: If you haven't done so already, [_install **CHKware**_](https://chkware.github.io/setup).
 
-- Step 2: Search and install the _**CHKware**_ extension for VS Code.
+- Step 2: Install the [_**CHKware** extension_](https://marketplace.visualstudio.com/items?itemName=chkware.chkware) for VS Code.
 
 New to CHKwere? Read the [_quick start_](https://chkware.github.io/quick-start) guide here.
 
