@@ -60,6 +60,25 @@
         "command": "chkware.runFile",
         "key": "alt+ctrl+r"
       }
+    ],
+    "languages": [
+      {
+        "id": "chkware",
+        "extensions": [
+          ".chk"
+        ],
+        "aliases": [
+          "chkware"
+        ],
+        "configuration": "./syntaxes/chkware.tmLanguage.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "chkware",
+        "scopeName": "source.chkware",
+        "path": "./syntaxes/chkware.tmLanguage.json"
+      }
     ]
   },
   "scripts": {

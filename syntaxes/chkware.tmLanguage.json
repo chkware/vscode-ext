@@ -1,0 +1,19 @@
+{
+  "name": "chkware",
+  "scopeName": "source.chkware",
+  "fileTypes": ["chkware"],
+  "patterns": [
+    {
+      "include": "#yaml"
+    }
+  ],
+  "repository": {
+    "yaml": {
+      "patterns": [
+        {
+          "include": "source.yaml"
+        }
+      ]
+    }
+  }
+}
