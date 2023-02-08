@@ -1,5 +1,5 @@
 import * as vscode from "vscode";
-import { testCaseSnippets, httpSnippets, SnippetItem } from "./snippets";
+import { testCaseSnippets, httpSnippets, SnippetItem } from "../snippets";
 
 export async function addHttpSnippet(): Promise<void> {
   const item = await vscode.window.showQuickPick(httpSnippets, {
