@@ -45,6 +45,11 @@
         "command": "chkware.runFile",
         "title": "Run file",
         "category": "CHKware"
+      },
+      {
+        "command": "chkware.viewDocumentation",
+        "title": "View Documentation",
+        "category": "CHKware"
       }
     ],
     "menus": {
