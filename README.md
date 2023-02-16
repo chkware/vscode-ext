@@ -44,7 +44,7 @@ Using VS Code [command palette](https://code.visualstudio.com/docs/getstarted/us
 - Use `⇧⌘P` on Mac, `Ctrl+Shift+P` on Windows, and `Ctrl+Shift+P` on Linux to bring up command palette.
 - Select a sample you desire to use. <br><br>
 
-![chkware vscode ext](https://user-images.githubusercontent.com/45073703/187077383-7083de1a-affe-4fed-845a-d71d69d03034.gif)
+![Preview](https://user-images.githubusercontent.com/45073703/219438462-a9cfb5e2-a2a9-4c1d-8a34-78fb1cb3fe83.gif)
 
 ## List of sample snippet document specifications
 
