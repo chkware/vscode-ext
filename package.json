@@ -48,7 +48,7 @@
       },
       {
         "command": "chkware.viewDocumentation",
-        "title": "View Documentation",
+        "title": "View docs on website",
         "category": "CHKware"
       }
     ],
