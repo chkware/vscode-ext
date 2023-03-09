@@ -2,17 +2,14 @@
 
 Extension to modify `.chk` files on Visual Studio Code for [**CHKware**](https://chkware.github.io/) (pronounced as /tʃek-wer/, i.e. check-ware).
 
-<p>
-    <a href="https://marketplace.visualstudio.com/items?itemName=chkware.chkware">
-        <img src="https://img.shields.io/visual-studio-marketplace/v/chkware.chkware">
-    </a>
-    <a href="https://github.com/chkware/vscode-ext/blob/main/LICENSE">
-        <img src="https://img.shields.io/github/license/chkware/vscode-ext">
-    </a>
-    <a href="https://twitter.com/chkware">
-        <img src="https://img.shields.io/twitter/follow/chkware?style=social">
-    </a>
-</p>
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/chkware.chkware)
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/chkware.svg?style=social&label=Follow%20%40chkware)](https://twitter.com/chkware)
+[![Known Vulnerabilities](https://snyk.io/test/github/chkware/vscode-ext/main/badge.svg)](https://snyk.io/test/github/chkware/vscode-ext)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=chkware_vscode-ext&metric=bugs)](https://sonarcloud.io/summary/new_code?id=chkware_vscode-ext)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=chkware_vscode-ext&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=chkware_vscode-ext)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=chkware_vscode-ext&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=chkware_vscode-ext)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=chkware_vscode-ext&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=chkware_vscode-ext)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=chkware_vscode-ext&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=chkware_vscode-ext)
 
 ---
 
