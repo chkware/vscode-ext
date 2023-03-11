@@ -12,7 +12,7 @@ request:
 
 spec:
   asserts:
-    - {type: AssertEqual, actual: $_response.code, expected: 200}
+    - {type: AssertEqual, actual: "{$_response.code}", expected: 200}
 `,
 };
 
@@ -26,7 +26,7 @@ spec:
   execute:
     file: ./file-name.chk
   asserts:
-    - {type: AssertEqual, actual: $_response.code, expected: 200}
+    - {type: AssertEqual, actual: "{$_response.code}", expected: 200}
 `,
 };
 
@@ -43,6 +43,6 @@ spec:
       var1: "value"
       var2: 0
   asserts:
-    - {type: AssertEqual, actual: $_response.code, expected: 200}
+    - {type: AssertEqual, actual: "{$_response.code}", expected: 200}
 `,
 };
