@@ -11,7 +11,7 @@ export async function runFile(): Promise<void> {
   }
 
   const { openedFileName, openedFolder } = getFileInfo(
-    activeTextEditor.document
+    activeTextEditor.document,
   );
 
   const commandType = getCommandType(activeTextEditor.document.getText());

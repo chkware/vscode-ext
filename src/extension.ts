@@ -6,23 +6,23 @@ import { CHKWARE_DOCUMENTATION_URL } from "./constants";
 export function activate(context: vscode.ExtensionContext) {
   context.subscriptions.push(
     vscode.commands.registerCommand("chkware.addHttpSnippet", () =>
-      addHttpSnippet()
-    )
+      addHttpSnippet(),
+    ),
   );
 
   context.subscriptions.push(
     vscode.commands.registerCommand("chkware.addTestCaseSnippet", () =>
-      addTestCaseSnippet()
-    )
+      addTestCaseSnippet(),
+    ),
   );
 
   context.subscriptions.push(
-    vscode.commands.registerCommand("chkware.runFile", () => runFile())
+    vscode.commands.registerCommand("chkware.runFile", () => runFile()),
   );
 
   context.subscriptions.push(
     vscode.commands.registerCommand("chkware.viewDocumentation", () =>
-      vscode.env.openExternal(vscode.Uri.parse(CHKWARE_DOCUMENTATION_URL))
-    )
+      vscode.env.openExternal(vscode.Uri.parse(CHKWARE_DOCUMENTATION_URL)),
+    ),
   );
 }
