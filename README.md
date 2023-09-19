@@ -1,6 +1,6 @@
 ## CHKware extension for Visual Studio Code
 
-Extension to modify `.chk` files on Visual Studio Code for [**CHKware**](https://chkware.github.io/) (pronounced as /tʃek-wer/, i.e. check-ware).
+Extension to modify `.chk` files on Visual Studio Code for [**CHKware**](https://docs.chkware.com/) (pronounced as /tʃek-wer/, i.e. check-ware).
 
 ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/chkware.chkware)
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/chkware.svg?style=social&label=Follow%20%40chkware)](https://twitter.com/chkware)
@@ -17,15 +17,15 @@ Extension to modify `.chk` files on Visual Studio Code for [**CHKware**](https:/
 
 Get started writing _**CHKware**_ configurations with VS Code doing following steps:
 
-- Step 1: If you haven't done so already, [_install **CHKware**_](https://chkware.github.io/setup).
+- Step 1: If you haven't done so already, [_install **CHKware**_](https://docs.chkware.com/setup).
 
 - Step 2: Install the [_**CHKware** extension_](https://marketplace.visualstudio.com/items?itemName=chkware.chkware) for VS Code.
 
-New to CHKwere? Read the [_quick start_](https://chkware.github.io/quick-start) guide here.
+New to CHKwere? Read the [_quick start_](https://docs.chkware.com/quick-start) guide here.
 
 ## Setup development environment
 
-Make sure you are following [these steps](https://chkware.github.io/setup/setup-ext-dev) to setup this extension code further in your machine for development.
+Make sure you are following [these steps](https://docs.chkware.com/setup/setup-ext-dev) to setup this extension code further in your machine for development.
 
 ---
 
@@ -47,15 +47,15 @@ Using VS Code [command palette](https://code.visualstudio.com/docs/getstarted/us
 
 Following list of sample document specifications is supported
 
-- [http: Minimal request](https://chkware.github.io/examples/http-examples#minimal-request-with-http-get-method)
-- [http: GET with query string](https://chkware.github.io/Examples/http-examples#request-with-query-string)
-- [http: POST with header and bearer token](https://chkware.github.io/Examples/http-examples#request-without-a-body)
-- [http: POST form submit](https://chkware.github.io/examples/http-examples#request-with-form)
-- [http: POST with JSON body](https://chkware.github.io/examples/http-examples#request-with-json-body)
-- [http: PUT with file upload](https://chkware.github.io/examples/http-examples#request-with-file-upload)
-- [testcase: Minimal spec. with http request](https://chkware.github.io/examples/testcase-examples#a-minimal-testcase-with-in-file-request)
-- [testcase: Spec. with external file in request](https://chkware.github.io/examples/testcase-examples#a-minimal-testcase-with-out-file-request)
-- [testcase: Spec. with passing variables to external file](https://chkware.github.io/examples/testcase-examples#a-testcase-with-out-file-request-passing-data)
+- [http: Minimal request](https://docs.chkware.com/examples/http-examples#minimal-request-with-http-get-method)
+- [http: GET with query string](https://docs.chkware.com/Examples/http-examples#request-with-query-string)
+- [http: POST with header and bearer token](https://docs.chkware.com/Examples/http-examples#request-without-a-body)
+- [http: POST form submit](https://docs.chkware.com/examples/http-examples#request-with-form)
+- [http: POST with JSON body](https://docs.chkware.com/examples/http-examples#request-with-json-body)
+- [http: PUT with file upload](https://docs.chkware.com/examples/http-examples#request-with-file-upload)
+- [testcase: Minimal spec. with http request](https://docs.chkware.com/examples/testcase-examples#a-minimal-testcase-with-in-file-request)
+- [testcase: Spec. with external file in request](https://docs.chkware.com/examples/testcase-examples#a-minimal-testcase-with-out-file-request)
+- [testcase: Spec. with passing variables to external file](https://docs.chkware.com/examples/testcase-examples#a-testcase-with-out-file-request-passing-data)
 
 ---
 
