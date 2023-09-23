@@ -34,12 +34,12 @@
     "commands": [
       {
         "command": "chkware.addHttpSnippet",
-        "title": "Add Http spec. snippet",
+        "title": "Add Http spec. snippet [DEPRECATED, use fetch]",
         "category": "CHKware"
       },
       {
         "command": "chkware.addTestCaseSnippet",
-        "title": "Add Testcase spec. snippet",
+        "title": "Add Testcase spec. snippet [DEPRECATED, use validate]",
         "category": "CHKware"
       },
       {
