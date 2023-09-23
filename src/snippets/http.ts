@@ -1,7 +1,7 @@
 import { SnippetItem } from ".";
 
 export const httpGETWithURLParams = <SnippetItem>{
-  label: "fetch: GET with query string",
+  label: "fetch: GET with query string [DEPRECATED, use fetch]",
   description: "",
   snippet: `---
 version: default:http:0.7.2
@@ -17,7 +17,7 @@ request:
 };
 
 export const httpPOSTWithAuthBearer = <SnippetItem>{
-  label: "fetch: POST form submit",
+  label: "fetch: POST form submit [DEPRECATED, use fetch]",
   description: "",
   snippet: `---
 version: default:http:0.7.2
@@ -45,7 +45,7 @@ request:
 };
 
 export const httpPOSTWithFormSubmit = <SnippetItem>{
-  label: "fetch: POST with header and bearer token",
+  label: "fetch: POST with header and bearer token [DEPRECATED, use fetch]",
   description: "",
   snippet: `---
 version: default:http:0.7.2
@@ -64,7 +64,7 @@ request:
 };
 
 export const httpPOSTWithJSONBody = <SnippetItem>{
-  label: "fetch: POST with JSON body",
+  label: "fetch: POST with JSON body [DEPRECATED, use fetch]",
   description: "",
   snippet: `---
 version: default:http:0.7.2
@@ -83,7 +83,7 @@ request:
 };
 
 export const httpPUTWithFileUpload = <SnippetItem>{
-  label: "fetch: PUT with file upload",
+  label: "fetch: PUT with file upload [DEPRECATED, use fetch]",
   description: "",
   snippet: `---
 version: default:http:0.7.2
@@ -108,7 +108,7 @@ request:
 };
 
 export const minimalRequest = <SnippetItem>{
-  label: "fetch: Minimal request",
+  label: "fetch: Minimal request [DEPRECATED, use fetch]",
   description: "",
   snippet: `---
 version: default:http:0.7.2

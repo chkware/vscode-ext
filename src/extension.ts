@@ -6,7 +6,8 @@ import {
   addValidationSnippet,
 } from "./commands/add-snippet";
 import { runFile } from "./commands/run-file";
-import { CHKWARE_DOCUMENTATION_URL } from "./constants";
+
+export const DOCUMENTATION_URL = "https://docs.chkware.com";
 
 export function activate(context: vscode.ExtensionContext) {
   context.subscriptions.push(
@@ -39,7 +40,7 @@ export function activate(context: vscode.ExtensionContext) {
 
   context.subscriptions.push(
     vscode.commands.registerCommand("chkware.viewDocumentation", () =>
-      vscode.env.openExternal(vscode.Uri.parse(CHKWARE_DOCUMENTATION_URL)),
+      vscode.env.openExternal(vscode.Uri.parse(DOCUMENTATION_URL)),
     ),
   );
 }

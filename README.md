@@ -47,15 +47,30 @@ Using VS Code [command palette](https://code.visualstudio.com/docs/getstarted/us
 
 Following list of sample document specifications is supported
 
-- [http: Minimal request](https://docs.chkware.com/examples/http-examples#minimal-request-with-http-get-method)
-- [http: GET with query string](https://docs.chkware.com/Examples/http-examples#request-with-query-string)
-- [http: POST with header and bearer token](https://docs.chkware.com/Examples/http-examples#request-without-a-body)
-- [http: POST form submit](https://docs.chkware.com/examples/http-examples#request-with-form)
-- [http: POST with JSON body](https://docs.chkware.com/examples/http-examples#request-with-json-body)
-- [http: PUT with file upload](https://docs.chkware.com/examples/http-examples#request-with-file-upload)
-- [testcase: Minimal spec. with http request](https://docs.chkware.com/examples/testcase-examples#a-minimal-testcase-with-in-file-request)
-- [testcase: Spec. with external file in request](https://docs.chkware.com/examples/testcase-examples#a-minimal-testcase-with-out-file-request)
-- [testcase: Spec. with passing variables to external file](https://docs.chkware.com/examples/testcase-examples#a-testcase-with-out-file-request-passing-data)
+- `[DEPRECATED]`[http: Minimal request](https://docs.chkware.com/examples/http-examples#minimal-request-with-http-get-method)
+- `[DEPRECATED]`[http: GET with query string](https://docs.chkware.com/Examples/http-examples#request-with-query-string)
+- `[DEPRECATED]`[http: POST with header and bearer token](https://docs.chkware.com/Examples/http-examples#request-without-a-body)
+- `[DEPRECATED]`[http: POST form submit](https://docs.chkware.com/examples/http-examples#request-with-form)
+- `[DEPRECATED]`[http: POST with JSON body](https://docs.chkware.com/examples/http-examples#request-with-json-body)
+- `[DEPRECATED]`[http: PUT with file upload](https://docs.chkware.com/examples/http-examples#request-with-file-upload)
+- `[DEPRECATED]`[testcase: Minimal spec. with http request](https://docs.chkware.com/examples/testcase-examples#a-minimal-testcase-with-in-file-request)
+- `[DEPRECATED]`[testcase: Spec. with external file in request](https://docs.chkware.com/examples/testcase-examples#a-minimal-testcase-with-out-file-request)
+- `[DEPRECATED]`[testcase: Spec. with passing variables to external file](https://docs.chkware.com/examples/testcase-examples#a-testcase-with-out-file-request-passing-data)
+
+**Fetch**
+
+- http: Minimal request [_link TBD_]
+- http: GET with query string [_link TBD_]
+- http: POST with header and bearer token [_link TBD_]
+- http: POST form submit [_link TBD_]
+- http: POST with JSON body [_link TBD_]
+- http: PUT with file upload [_link TBD_]
+
+**Validate**
+
+- validation: Minimal spec. with http reques [_link TBD_]
+- validation: Spec. with external file in reques [_link TBD_]
+- validation: Spec. with passing variables to external file [_link TBD_]
 
 ---
 
