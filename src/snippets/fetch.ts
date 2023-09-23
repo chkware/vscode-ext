@@ -1,7 +1,7 @@
 import { SnippetItem } from ".";
 
-export const httpGETWithURLParams = <SnippetItem>{
-  label: "http: GET with query string",
+export const fetchGETWithURLParams = <SnippetItem>{
+  label: "fetch: GET with query string",
   description: "",
   snippet: `---
 version: default:http:0.7.2
@@ -16,8 +16,8 @@ request:
 `,
 };
 
-export const httpPOSTWithAuthBearer = <SnippetItem>{
-  label: "http: POST form submit",
+export const fetchPOSTWithAuthBearer = <SnippetItem>{
+  label: "fetch: POST form submit",
   description: "",
   snippet: `---
 version: default:http:0.7.2
@@ -44,8 +44,8 @@ request:
 `,
 };
 
-export const httpPOSTWithFormSubmit = <SnippetItem>{
-  label: "http: POST with header and bearer token",
+export const fetchPOSTWithFormSubmit = <SnippetItem>{
+  label: "fetch: POST with header and bearer token",
   description: "",
   snippet: `---
 version: default:http:0.7.2
@@ -63,8 +63,8 @@ request:
 `,
 };
 
-export const httpPOSTWithJSONBody = <SnippetItem>{
-  label: "http: POST with JSON body",
+export const fetchPOSTWithJSONBody = <SnippetItem>{
+  label: "fetch: POST with JSON body",
   description: "",
   snippet: `---
 version: default:http:0.7.2
@@ -82,8 +82,8 @@ request:
 `,
 };
 
-export const httpPUTWithFileUpload = <SnippetItem>{
-  label: "http: PUT with file upload",
+export const fetchPUTWithFileUpload = <SnippetItem>{
+  label: "fetch: PUT with file upload",
   description: "",
   snippet: `---
 version: default:http:0.7.2
@@ -107,8 +107,8 @@ request:
 `,
 };
 
-export const minimalRequest = <SnippetItem>{
-  label: "http: Minimal request",
+export const fetchMinimalRequest = <SnippetItem>{
+  label: "fetch: Minimal request",
   description: "",
   snippet: `---
 version: default:http:0.7.2
