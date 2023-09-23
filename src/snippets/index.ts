@@ -8,6 +8,15 @@ import {
 } from "./http";
 
 import {
+  fetchMinimalRequest,
+  fetchGETWithURLParams,
+  fetchPOSTWithAuthBearer,
+  fetchPOSTWithFormSubmit,
+  fetchPOSTWithJSONBody,
+  fetchPUTWithFileUpload,
+} from "./fetch";
+
+import {
   testCaseMinWithHttp,
   testCaseWithFile,
   testCaseWithFilePassVars,
@@ -32,4 +41,13 @@ export const testCaseSnippets = [
   testCaseMinWithHttp,
   testCaseWithFile,
   testCaseWithFilePassVars,
+];
+
+export const fetchSnippets = [
+  fetchMinimalRequest,
+  fetchGETWithURLParams,
+  fetchPOSTWithAuthBearer,
+  fetchPOSTWithFormSubmit,
+  fetchPOSTWithJSONBody,
+  fetchPUTWithFileUpload,
 ];

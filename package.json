@@ -43,6 +43,11 @@
         "category": "CHKware"
       },
       {
+        "command": "chkware.addFetchSnippet",
+        "title": "Add Fetch spec. snippet",
+        "category": "CHKware"
+      },
+      {
         "command": "chkware.runFile",
         "title": "Run file",
         "category": "CHKware"
