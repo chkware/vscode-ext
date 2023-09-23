@@ -48,6 +48,11 @@
         "category": "CHKware"
       },
       {
+        "command": "chkware.addValidationSnippet",
+        "title": "Add Validation spec. snippet",
+        "category": "CHKware"
+      },
+      {
         "command": "chkware.runFile",
         "title": "Run file",
         "category": "CHKware"

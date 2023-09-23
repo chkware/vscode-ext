@@ -3,6 +3,7 @@ import {
   addHttpSnippet,
   addTestCaseSnippet,
   addFetchSnippet,
+  addValidationSnippet,
 } from "./commands/add-snippet";
 import { runFile } from "./commands/run-file";
 import { CHKWARE_DOCUMENTATION_URL } from "./constants";
@@ -23,6 +24,12 @@ export function activate(context: vscode.ExtensionContext) {
   context.subscriptions.push(
     vscode.commands.registerCommand("chkware.addFetchSnippet", () =>
       addFetchSnippet(),
+    ),
+  );
+
+  context.subscriptions.push(
+    vscode.commands.registerCommand("chkware.addValidationSnippet", () =>
+      addValidationSnippet(),
     ),
   );
 
