@@ -8,19 +8,13 @@ import {
 } from "./http";
 
 import {
-  fetchMinimalRequest,
-  fetchGETWithURLParams,
-  fetchPOSTWithAuthBearer,
-  fetchPOSTWithFormSubmit,
-  fetchPOSTWithJSONBody,
-  fetchPUTWithFileUpload,
-} from "./fetch";
-
-import {
   testCaseMinWithHttp,
   testCaseWithFile,
   testCaseWithFilePassVars,
 } from "./testcase";
+
+import * as fetch from "./fetch";
+import * as validate from "./validate";
 
 export interface SnippetItem {
   label: string;
@@ -44,10 +38,16 @@ export const testCaseSnippets = [
 ];
 
 export const fetchSnippets = [
-  fetchMinimalRequest,
-  fetchGETWithURLParams,
-  fetchPOSTWithAuthBearer,
-  fetchPOSTWithFormSubmit,
-  fetchPOSTWithJSONBody,
-  fetchPUTWithFileUpload,
+  fetch.fetchMinimalRequest,
+  fetch.fetchGETWithURLParams,
+  fetch.fetchPOSTWithAuthBearer,
+  fetch.fetchPOSTWithFormSubmit,
+  fetch.fetchPOSTWithJSONBody,
+  fetch.fetchPUTWithFileUpload,
+];
+
+export const validateSnippets = [
+  validate.validationMinimal,
+  validate.validationWithData,
+  validate.validationWithDataAndVars,
 ];
