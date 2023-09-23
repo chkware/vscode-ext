@@ -23,7 +23,7 @@ export async function runFile(): Promise<void> {
   }
 
   const terminal = vscode.window.createTerminal({
-    name: "chkware - Run",
+    name: "CHKware - Run",
     cwd: openedFolder,
   });
 
