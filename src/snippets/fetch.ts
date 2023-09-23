@@ -1,7 +1,7 @@
 import { SnippetItem } from ".";
 
 export const httpGETWithURLParams = <SnippetItem>{
-  label: "fetch: GET with query string",
+  label: "http: GET with query string",
   description: "",
   snippet: `---
 version: default:http:0.7.2
@@ -17,7 +17,7 @@ request:
 };
 
 export const httpPOSTWithAuthBearer = <SnippetItem>{
-  label: "fetch: POST form submit",
+  label: "http: POST form submit",
   description: "",
   snippet: `---
 version: default:http:0.7.2
@@ -29,23 +29,23 @@ request:
   headers:
     Accept-Encoding: gzip, deflate
 
-  auth[bearer]:
+  auth .scm=bearer:
     token: eyJhbGciOiJIU4fwpMeJf36POk6yJV_adQssw5c
 
-  body[form]:
+  body .enc=form:
     user_id: 32,
     roll_no: 1,
     class: 2,
     name: 'Student name'
 
     # note: this will just set photo with file path as string, 
-    # to upload the actual file use body[form-data] instead
+    # to upload the actual file use "body .enc=form-data" instead
     photo: file:///home/username/student-photo-01.png
 `,
 };
 
 export const httpPOSTWithFormSubmit = <SnippetItem>{
-  label: "fetch: POST with header and bearer token",
+  label: "http: POST with header and bearer token",
   description: "",
   snippet: `---
 version: default:http:0.7.2
@@ -58,13 +58,13 @@ request:
     Accept-Encoding: gzip, deflate
     Content-Type: application/json
 
-  auth[bearer]:
+  auth .scm=bearer:
     token: eyJhbGciOiJIU4fwpMeJf36POk6yJV_adQssw5c  
 `,
 };
 
 export const httpPOSTWithJSONBody = <SnippetItem>{
-  label: "fetch: POST with JSON body",
+  label: "http: POST with JSON body",
   description: "",
   snippet: `---
 version: default:http:0.7.2
@@ -77,13 +77,13 @@ request:
     Accept-Encoding: gzip, deflate
     Content-Type: application/json
 
-  auth[bearer]:
+  auth .scm=bearer:
     token: eyJhbGciOiJIU4fwpMeJf36POk6yJV_adQssw5c  
 `,
 };
 
 export const httpPUTWithFileUpload = <SnippetItem>{
-  label: "fetch: PUT with file upload",
+  label: "http: PUT with file upload",
   description: "",
   snippet: `---
 version: default:http:0.7.2
@@ -95,10 +95,10 @@ request:
   headers:
     Accept-Encoding: gzip, deflate
 
-  auth[bearer]:
+  auth .scm=bearer:
     token: eyJhbGciOiJIU4fwpMeJf36POk6yJV_adQssw5c
 
-  body[form-data]:
+  body .enc=form-data:
     user_id: 32,
     roll_no: 1,
 
@@ -108,7 +108,7 @@ request:
 };
 
 export const minimalRequest = <SnippetItem>{
-  label: "fetch: Minimal request",
+  label: "http: Minimal request",
   description: "",
   snippet: `---
 version: default:http:0.7.2
