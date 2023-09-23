@@ -1,7 +1,7 @@
 import { SnippetItem } from ".";
 
 export const fetchGETWithURLParams = <SnippetItem>{
-  label: "fetch: GET with query string",
+  label: "http: GET with query string",
   description: "",
   snippet: `---
 version: default:http:0.7.2
@@ -17,7 +17,7 @@ request:
 };
 
 export const fetchPOSTWithAuthBearer = <SnippetItem>{
-  label: "fetch: POST form submit",
+  label: "http: POST form submit",
   description: "",
   snippet: `---
 version: default:http:0.7.2
@@ -45,7 +45,7 @@ request:
 };
 
 export const fetchPOSTWithFormSubmit = <SnippetItem>{
-  label: "fetch: POST with header and bearer token",
+  label: "http: POST with header and bearer token",
   description: "",
   snippet: `---
 version: default:http:0.7.2
@@ -64,7 +64,7 @@ request:
 };
 
 export const fetchPOSTWithJSONBody = <SnippetItem>{
-  label: "fetch: POST with JSON body",
+  label: "http: POST with JSON body",
   description: "",
   snippet: `---
 version: default:http:0.7.2
@@ -83,7 +83,7 @@ request:
 };
 
 export const fetchPUTWithFileUpload = <SnippetItem>{
-  label: "fetch: PUT with file upload",
+  label: "http: PUT with file upload",
   description: "",
   snippet: `---
 version: default:http:0.7.2
@@ -108,7 +108,7 @@ request:
 };
 
 export const fetchMinimalRequest = <SnippetItem>{
-  label: "fetch: Minimal request",
+  label: "http: Minimal request",
   description: "",
   snippet: `---
 version: default:http:0.7.2
