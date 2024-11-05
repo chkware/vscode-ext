@@ -7,7 +7,7 @@ import {
 } from "./commands/add-snippet";
 import { runFile } from "./commands/run-file";
 
-export const DOCUMENTATION_URL = "https://docs.chkware.com";
+export const DOCUMENTATION_URL = "https://chkware.com/docs";
 
 export function activate(context: vscode.ExtensionContext) {
   context.subscriptions.push(
