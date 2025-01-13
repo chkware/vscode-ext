@@ -1,6 +1,6 @@
 ## CHKware extension for Visual Studio Code
 
-Extension to modify `.chk` files on Visual Studio Code for [**CHKware**](https://docs.chkware.com/) (pronounced as /tʃek-wer/, i.e. check-ware).
+Extension to modify `.chk` files on Visual Studio Code for [**CHKware**](https://chkware.com/docs/) (pronounced as /tʃek-wer/, i.e. check-ware).
 
 ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/chkware.chkware)
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/chkware.svg?style=social&label=Follow%20%40chkware)](https://twitter.com/chkware)
@@ -17,15 +17,15 @@ Extension to modify `.chk` files on Visual Studio Code for [**CHKware**](https:/
 
 Get started writing _**CHKware**_ configurations with VS Code doing following steps:
 
-- Step 1: If you haven't done so already, [_install **CHKware**_](https://docs.chkware.com/setup).
+- Step 1: If you haven't done so already, [_install **CHKware**_](https://chkware.com/docs/setup).
 
 - Step 2: Install the [_**CHKware** extension_](https://marketplace.visualstudio.com/items?itemName=chkware.chkware) for VS Code.
 
-New to CHKwere? Read the [_quick start_](https://docs.chkware.com/quick-start) guide here.
+New to CHKwere? Read the [_quick start_](https://chkware.com/docs/quick-start) guide here.
 
 ## Setup development environment
 
-Make sure you are following [these steps](https://docs.chkware.com/setup/setup-ext-dev) to setup this extension code further in your machine for development.
+Make sure you are following [these steps](https://chkware.com/docs/setup/setup-ext-dev) to setup this extension code further in your machine for development.
 
 ---
 
@@ -47,15 +47,15 @@ Using VS Code [command palette](https://code.visualstudio.com/docs/getstarted/us
 
 Following list of sample document specifications is supported
 
-- `[DEPRECATED]`[http: Minimal request](https://docs.chkware.com/examples/http-examples#minimal-request-with-http-get-method)
-- `[DEPRECATED]`[http: GET with query string](https://docs.chkware.com/Examples/http-examples#request-with-query-string)
-- `[DEPRECATED]`[http: POST with header and bearer token](https://docs.chkware.com/Examples/http-examples#request-without-a-body)
-- `[DEPRECATED]`[http: POST form submit](https://docs.chkware.com/examples/http-examples#request-with-form)
-- `[DEPRECATED]`[http: POST with JSON body](https://docs.chkware.com/examples/http-examples#request-with-json-body)
-- `[DEPRECATED]`[http: PUT with file upload](https://docs.chkware.com/examples/http-examples#request-with-file-upload)
-- `[DEPRECATED]`[testcase: Minimal spec. with http request](https://docs.chkware.com/examples/testcase-examples#a-minimal-testcase-with-in-file-request)
-- `[DEPRECATED]`[testcase: Spec. with external file in request](https://docs.chkware.com/examples/testcase-examples#a-minimal-testcase-with-out-file-request)
-- `[DEPRECATED]`[testcase: Spec. with passing variables to external file](https://docs.chkware.com/examples/testcase-examples#a-testcase-with-out-file-request-passing-data)
+- `[DEPRECATED]`[http: Minimal request](https://chkware.com/docs/examples/http-examples#minimal-request-with-http-get-method)
+- `[DEPRECATED]`[http: GET with query string](https://chkware.com/docs/Examples/http-examples#request-with-query-string)
+- `[DEPRECATED]`[http: POST with header and bearer token](https://chkware.com/docs/Examples/http-examples#request-without-a-body)
+- `[DEPRECATED]`[http: POST form submit](https://chkware.com/docs/examples/http-examples#request-with-form)
+- `[DEPRECATED]`[http: POST with JSON body](https://chkware.com/docs/examples/http-examples#request-with-json-body)
+- `[DEPRECATED]`[http: PUT with file upload](https://chkware.com/docs/examples/http-examples#request-with-file-upload)
+- `[DEPRECATED]`[testcase: Minimal spec. with http request](https://chkware.com/docs/examples/testcase-examples#a-minimal-testcase-with-in-file-request)
+- `[DEPRECATED]`[testcase: Spec. with external file in request](https://chkware.com/docs/examples/testcase-examples#a-minimal-testcase-with-out-file-request)
+- `[DEPRECATED]`[testcase: Spec. with passing variables to external file](https://chkware.com/docs/examples/testcase-examples#a-testcase-with-out-file-request-passing-data)
 
 **Fetch**
 
