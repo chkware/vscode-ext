@@ -148,5 +148,12 @@
     "API Debugger",
     "API Linter",
     "REST API Testing "
-  ]
+  ],
+  "eslintConfig": {
+    "env": {
+        "browser": true,
+        "node": true
+    }
+  },
+  "eslintIgnore": ["out", "node_modules", ".vscode-test/", "*.vsix"]
 }
