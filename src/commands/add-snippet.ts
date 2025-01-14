@@ -1,27 +1,5 @@
 import * as vscode from "vscode";
-import {
-  testCaseSnippets,
-  httpSnippets,
-  fetchSnippets,
-  validateSnippets,
-  SnippetItem,
-} from "../snippets";
-
-export async function addHttpSnippet(): Promise<void> {
-  const item = await vscode.window.showQuickPick(httpSnippets, {
-    placeHolder: "Select a snippet",
-  });
-
-  item && pasteSnippet(item);
-}
-
-export async function addTestCaseSnippet(): Promise<void> {
-  const item = await vscode.window.showQuickPick(testCaseSnippets, {
-    placeHolder: "Select a snippet",
-  });
-
-  item && pasteSnippet(item);
-}
+import { fetchSnippets, validateSnippets, SnippetItem } from "../snippets";
 
 export async function addFetchSnippet(): Promise<void> {
   const item = await vscode.window.showQuickPick(fetchSnippets, {
