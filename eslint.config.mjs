@@ -3,7 +3,7 @@ import tsParser from "@typescript-eslint/parser";
 
 export default [{
     files: ["**/*.ts"],
-    ignores: ["dist/", "node_modules", ".vscode-test/", "*.vsix"],
+    ignores: ["out/", "node_modules", ".vscode-test/", "*.vsix"],
 }, {
     plugins: {
         "@typescript-eslint": typescriptEslint,
