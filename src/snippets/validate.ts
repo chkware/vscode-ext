@@ -1,14 +1,13 @@
 import { SnippetItem } from ".";
 
 export const validationMinimal = <SnippetItem>{
-  label: "validation: Minimal validation spec",
+  label: "validate: Minimal validation spec",
   description: "",
   snippet: `---
-version: default:validation:0.7.2
+version: default:validate:0.7.2
 
-# pass data via chk validate with --data flag
 asserts:
-  - type: Int
+  - type: Integer
     actual: <% _data.code %>
 
 expose:
@@ -17,13 +16,13 @@ expose:
 };
 
 export const validationWithData = <SnippetItem>{
-  label: "validation: Validation spec with setting data",
+  label: "validate: Validation spec with setting data",
   description: "",
   snippet: `---
-version: default:validation:0.7.2
+version: default:validate:0.7.2
 
 data:
-  code: 200
+  code: "200"
 
 asserts:
   - type: Equal
@@ -31,9 +30,10 @@ asserts:
     expected: 200
     msg_pass: 'Response was successful'
     msg_fail: 'Response was unsuccessful'
+    cast_actual_to: int
 
-  - type: Int
-    actual: <% _data.code %>
+  - type: Integer
+    actual: <% _data.code | int %>
 
 expose:
   - <% _asserts_response %>
@@ -41,10 +41,10 @@ expose:
 };
 
 export const validationWithDataAndVars = <SnippetItem>{
-  label: "validation: Validation spec with setting data and variables",
+  label: "validate: Validation spec with setting data and variables",
   description: "",
   snippet: `---
-version: default:validation:0.7.2
+version: default:validate:0.7.2
 
 variables:
   code: 200
@@ -54,13 +54,13 @@ data:
 
 asserts:
   - type: Equal
-    actual: <% _data.code %>
+    actual: <% code %>
     expected: 200
     msg_pass: 'Response was successful'
     msg_fail: 'Response was unsuccessful'
 
-  - type: int
-    actual: <% _data.code %>
+  - type: Integer
+    actual: <% code %>
 
   - type: Float
     actual: <% price %>
