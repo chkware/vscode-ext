@@ -22,3 +22,10 @@ export const validateSnippets = [
   validate.validateWithData,
   validate.validateWithDataAndVars,
 ];
+
+export const workflowSnippets = [
+  workflow.workflowMinimal,
+  workflow.workflowPassArguments,
+  workflow.workflowPassArgumentsAndVariables,
+  workflow.workflowPassArgumentsAndDynVariables,
+];
