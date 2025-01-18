@@ -102,7 +102,7 @@
     "prettier": "prettier --check './**/*.{js,jsx,ts,tsx,css,md,json}'",
     "prettier:fix": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}'",
     "test": "node ./out/test/runTest.js",
-    "prepare": "husky || true"
+    "prepare": "husky"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.6",
