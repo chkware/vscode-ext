@@ -1,5 +1,6 @@
 import * as fetch from "./fetch";
 import * as validate from "./validate";
+import * as workflow from "./workflow";
 
 export interface SnippetItem {
   label: string;
@@ -17,7 +18,7 @@ export const fetchSnippets = [
 ];
 
 export const validateSnippets = [
-  validate.validationMinimal,
-  validate.validationWithData,
-  validate.validationWithDataAndVars,
+  validate.validateMinimal,
+  validate.validateWithData,
+  validate.validateWithDataAndVars,
 ];

@@ -43,6 +43,11 @@
         "category": "CHKware"
       },
       {
+        "command": "chkware.addWorkflowSnippet",
+        "title": "Add Workflow spec. snippet",
+        "category": "CHKware"
+      },
+      {
         "command": "chkware.runFile",
         "title": "Run file",
         "category": "CHKware"

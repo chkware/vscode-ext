@@ -1,7 +1,11 @@
 // The module 'vscode' contains the VS Code extensibility API
 // Import the module and reference it with the alias vscode in your code below
 import * as vscode from "vscode";
-import { addFetchSnippet, addValidationSnippet } from "./commands/add-snippet";
+import {
+  addFetchSnippet,
+  addValidateSnippet,
+  addWorkflowSnippet,
+} from "./commands/add-snippet";
 import { runFile } from "./commands/run-file";
 
 export const DOCUMENTATION_URL = "https://chkware.com/docs";
@@ -18,6 +22,12 @@ export function activate(context: vscode.ExtensionContext) {
   context.subscriptions.push(
     vscode.commands.registerCommand("chkware.addValidationSnippet", () =>
       addValidationSnippet(),
+    ),
+  );
+
+  context.subscriptions.push(
+    vscode.commands.registerCommand("chkware.addWorkflowSnippet", () =>
+      addWorkflowSnippet(),
     ),
   );
   context.subscriptions.push(
