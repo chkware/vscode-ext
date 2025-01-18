@@ -68,9 +68,9 @@ Following list of sample document specifications is supported
 
 **Validate**
 
-- validation: Minimal spec. with http reques [_link TBD_]
-- validation: Spec. with external file in reques [_link TBD_]
-- validation: Spec. with passing variables to external file [_link TBD_]
+- validate: Minimal spec. with http reques [_link TBD_]
+- validate: Spec. with external file in reques [_link TBD_]
+- validate: Spec. with passing variables to external file [_link TBD_]
 
 ---
 

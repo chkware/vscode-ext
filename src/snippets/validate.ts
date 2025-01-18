@@ -1,7 +1,7 @@
 import { SnippetItem } from ".";
 
-export const validationMinimal = <SnippetItem>{
-  label: "validate: Minimal validation spec",
+export const validateMinimal = <SnippetItem>{
+  label: "validate: Minimal validate spec",
   description: "",
   snippet: `---
 version: default:validate:0.7.2
@@ -15,8 +15,8 @@ expose:
 `,
 };
 
-export const validationWithData = <SnippetItem>{
-  label: "validate: Validation spec with setting data",
+export const validateWithData = <SnippetItem>{
+  label: "validate: Validate spec with setting data",
   description: "",
   snippet: `---
 version: default:validate:0.7.2
@@ -40,8 +40,8 @@ expose:
 `,
 };
 
-export const validationWithDataAndVars = <SnippetItem>{
-  label: "validate: Validation spec with setting data and variables",
+export const validateWithDataAndVars = <SnippetItem>{
+  label: "validate: Validate spec with setting data and variables",
   description: "",
   snippet: `---
 version: default:validate:0.7.2

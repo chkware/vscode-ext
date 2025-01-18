@@ -14,7 +14,7 @@ export async function addFetchSnippet(): Promise<void> {
   item && pasteSnippet(item);
 }
 
-export async function addValidationSnippet(): Promise<void> {
+export async function addValidateSnippet(): Promise<void> {
   const item = await vscode.window.showQuickPick(validateSnippets, {
     placeHolder: "Select a snippet",
   });

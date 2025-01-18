@@ -38,8 +38,8 @@
         "category": "CHKware"
       },
       {
-        "command": "chkware.addValidationSnippet",
-        "title": "Add Validation spec. snippet",
+        "command": "chkware.addValidateSnippet",
+        "title": "Add Validate spec. snippet",
         "category": "CHKware"
       },
       {

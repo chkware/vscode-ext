@@ -20,8 +20,8 @@ export function activate(context: vscode.ExtensionContext) {
   );
 
   context.subscriptions.push(
-    vscode.commands.registerCommand("chkware.addValidationSnippet", () =>
-      addValidationSnippet(),
+    vscode.commands.registerCommand("chkware.addValidateSnippet", () =>
+      addValidateSnippet(),
     ),
   );
 
