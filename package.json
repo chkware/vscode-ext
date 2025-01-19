@@ -48,28 +48,9 @@
         "category": "CHKware"
       },
       {
-        "command": "chkware.runFile",
-        "title": "Run file",
-        "category": "CHKware"
-      },
-      {
         "command": "chkware.viewDocumentation",
         "title": "View docs on website",
         "category": "CHKware"
-      }
-    ],
-    "menus": {
-      "commandPalette": [
-        {
-          "command": "chkware.runFile",
-          "when": "resourceExtname == .chk"
-        }
-      ]
-    },
-    "keybindings": [
-      {
-        "command": "chkware.runFile",
-        "key": "alt+ctrl+r"
       }
     ],
     "languages": [

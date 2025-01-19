@@ -6,7 +6,6 @@ import {
   addValidateSnippet,
   addWorkflowSnippet,
 } from "./commands/add-snippet";
-import { runFile } from "./commands/run-file";
 
 export const DOCUMENTATION_URL = "https://chkware.com/docs";
 
@@ -29,9 +28,6 @@ export function activate(context: vscode.ExtensionContext) {
     vscode.commands.registerCommand("chkware.addWorkflowSnippet", () =>
       addWorkflowSnippet(),
     ),
-  );
-  context.subscriptions.push(
-    vscode.commands.registerCommand("chkware.runFile", () => runFile()),
   );
 
   context.subscriptions.push(
