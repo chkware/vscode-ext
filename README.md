@@ -88,4 +88,4 @@ Read [contribution guide](https://github.com/chkware/cli/blob/main/docs/CONTRIBU
 
 ---
 
-Licensed under [MPL v2.0](/LICENSE) | Follow [@chkware](https://twitter.com/chkware) on Twitter | [`chk` project](https://pypi.org/project/chk/) on PyPi
+Licensed under [MIT](/LICENSE) | Follow [@chkware](https://twitter.com/chkware) on Twitter
