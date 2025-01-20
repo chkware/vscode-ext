@@ -7,12 +7,14 @@ export const fetchGETWithURLParams = <SnippetItem>{
 version: default:http:0.7.2
 
 request:
-  url: https://httpbin.org/get
-
+  url: https://dummyjson.com/products
   url_params:
-    foo: bar
-    two: 2
+    limit: 10
+    skip: 5
   method: GET
+
+expose:
+  - <% _response %>
 `,
 };
 
@@ -23,24 +25,19 @@ export const fetchPOSTWithAuthBearer = <SnippetItem>{
 version: default:http:0.7.2
 
 request:
-  url: https://httpbin.org/post
+  url: "https://httpbin.org/post"
   method: POST
 
   headers:
     Accept-Encoding: gzip, deflate
 
-  auth .scm=bearer:
-    token: eyJhbGciOiJIU4fwpMeJf36POk6yJV_adQssw5c
+  body[form]:
+    firstName: "Some"
+    lastName: "O' Name"
+    age: 51,
 
-  body .enc=form:
-    user_id: 32,
-    roll_no: 1,
-    class: 2,
-    name: 'Student name'
-
-    # note: this will just set photo with file path as string, 
-    # to upload the actual file use "body .enc=form-data" instead
-    photo: file:///home/username/student-photo-01.png
+expose:
+  - <% _response %>
 `,
 };
 
@@ -51,15 +48,18 @@ export const fetchPOSTWithFormSubmit = <SnippetItem>{
 version: default:http:0.7.2
 
 request:
-  url: https://httpbin.org/post
-  method: POST
+  url: "https://dummyjson.com/auth/me"
+  method: GET
 
   headers:
     Accept-Encoding: gzip, deflate
     Content-Type: application/json
 
-  auth .scm=bearer:
-    token: eyJhbGciOiJIU4fwpMeJf36POk6yJV_adQssw5c  
+  auth[bearer]:
+    token: [PUT-YOUR-TOKEN]
+
+expose:
+  - <% _response %>
 `,
 };
 
@@ -70,15 +70,19 @@ export const fetchPOSTWithJSONBody = <SnippetItem>{
 version: default:http:0.7.2
 
 request:
-  url: https://httpbin.org/post
+  url: "https://dummyjson.com/users/add"
   method: POST
 
   headers:
     Accept-Encoding: gzip, deflate
-    Content-Type: application/json
 
-  auth .scm=bearer:
-    token: eyJhbGciOiJIU4fwpMeJf36POk6yJV_adQssw5c  
+  body[json]:
+    firstName: "Some"
+    lastName: "O' Name"
+    age: 51,
+
+expose:
+  - <% _response %>
 `,
 };
 
@@ -89,21 +93,21 @@ export const fetchPUTWithFileUpload = <SnippetItem>{
 version: default:http:0.7.2
 
 request:
-  url: https://httpbin.org/put
+  url: "https://httpbin.org/post"
   method: PUT
 
   headers:
     Accept-Encoding: gzip, deflate
 
-  auth .scm=bearer:
-    token: eyJhbGciOiJIU4fwpMeJf36POk6yJV_adQssw5c
+  body[form-data]:
+    firstName: "Some"
+    lastName: "O' Name"
+    age: 51,
+    cover_photo: file:///path/to/file/cover-iamge.png
+    profile_photo: file:///path/to/file/profile-iamge.png
 
-  body .enc=form-data:
-    user_id: 32,
-    roll_no: 1,
-
-    # note: this will upload the file
-    cover_photo: file:///home/username/student-cvphoto-01.png
+expose:
+  - <% _response %>
 `,
 };
 
@@ -114,7 +118,10 @@ export const fetchMinimalRequest = <SnippetItem>{
 version: default:http:0.7.2
 
 request:
-  url: https://httpbin.org/get
+  url: https://dummyjson.com/test
   method: GET
+
+expose:
+  - <% _response %>
 `,
 };

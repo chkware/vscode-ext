@@ -1,41 +1,12 @@
-import {
-  httpGETWithURLParams,
-  httpPOSTWithAuthBearer,
-  httpPOSTWithFormSubmit,
-  httpPOSTWithJSONBody,
-  httpPUTWithFileUpload,
-  minimalRequest,
-} from "./http";
-
-import {
-  testCaseMinWithHttp,
-  testCaseWithFile,
-  testCaseWithFilePassVars,
-} from "./testcase";
-
 import * as fetch from "./fetch";
 import * as validate from "./validate";
+import * as workflow from "./workflow";
 
 export interface SnippetItem {
   label: string;
   description: string;
   snippet: string;
 }
-
-export const httpSnippets = [
-  minimalRequest,
-  httpGETWithURLParams,
-  httpPOSTWithAuthBearer,
-  httpPOSTWithFormSubmit,
-  httpPOSTWithJSONBody,
-  httpPUTWithFileUpload,
-];
-
-export const testCaseSnippets = [
-  testCaseMinWithHttp,
-  testCaseWithFile,
-  testCaseWithFilePassVars,
-];
 
 export const fetchSnippets = [
   fetch.fetchMinimalRequest,
@@ -47,7 +18,14 @@ export const fetchSnippets = [
 ];
 
 export const validateSnippets = [
-  validate.validationMinimal,
-  validate.validationWithData,
-  validate.validationWithDataAndVars,
+  validate.validateMinimal,
+  validate.validateWithData,
+  validate.validateWithDataAndVars,
+];
+
+export const workflowSnippets = [
+  workflow.workflowMinimal,
+  workflow.workflowPassArguments,
+  workflow.workflowPassArgumentsAndVariables,
+  workflow.workflowPassArgumentsAndDynVariables,
 ];

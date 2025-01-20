@@ -14,7 +14,7 @@
     "url": "https://github.com/chkware/vscode-ext/issues"
   },
   "engines": {
-    "vscode": "^1.69.0"
+    "vscode": "^1.96.0"
   },
   "preview": true,
   "galleryBanner": {
@@ -33,48 +33,24 @@
   "contributes": {
     "commands": [
       {
-        "command": "chkware.addHttpSnippet",
-        "title": "Add Http spec. snippet [DEPRECATED, use fetch]",
-        "category": "CHKware"
-      },
-      {
-        "command": "chkware.addTestCaseSnippet",
-        "title": "Add Testcase spec. snippet [DEPRECATED, use validate]",
-        "category": "CHKware"
-      },
-      {
         "command": "chkware.addFetchSnippet",
         "title": "Add Fetch spec. snippet",
         "category": "CHKware"
       },
       {
-        "command": "chkware.addValidationSnippet",
-        "title": "Add Validation spec. snippet",
+        "command": "chkware.addValidateSnippet",
+        "title": "Add Validate spec. snippet",
         "category": "CHKware"
       },
       {
-        "command": "chkware.runFile",
-        "title": "Run file",
+        "command": "chkware.addWorkflowSnippet",
+        "title": "Add Workflow spec. snippet",
         "category": "CHKware"
       },
       {
         "command": "chkware.viewDocumentation",
         "title": "View docs on website",
         "category": "CHKware"
-      }
-    ],
-    "menus": {
-      "commandPalette": [
-        {
-          "command": "chkware.runFile",
-          "when": "resourceExtname == .chk"
-        }
-      ]
-    },
-    "keybindings": [
-      {
-        "command": "chkware.runFile",
-        "key": "alt+ctrl+r"
       }
     ],
     "languages": [
@@ -107,12 +83,11 @@
     "prettier": "prettier --check './**/*.{js,jsx,ts,tsx,css,md,json}'",
     "prettier:fix": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}'",
     "test": "node ./out/test/runTest.js",
-    "prepare": "husky || true"
+    "prepare": "husky"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.6",
     "@commitlint/config-conventional": "^19.6",
-    "@types/mocha": "^10.0",
     "@types/node": "^22.10",
     "@types/vscode": "^1.96",
     "@typescript-eslint/eslint-plugin": "^8.19",
@@ -125,7 +100,6 @@
     "eslint-plugin-prettier": "^5.2",
     "husky": "^9.1",
     "lint-staged": "^15.3",
-    "mocha": "^11.0",
     "prettier": "^3.4",
     "typescript": "^5.7"
   },
@@ -148,12 +122,5 @@
     "API Debugger",
     "API Linter",
     "REST API Testing "
-  ],
-  "eslintConfig": {
-    "env": {
-        "browser": true,
-        "node": true
-    }
-  },
-  "eslintIgnore": ["out", "node_modules", ".vscode-test/", "*.vsix"]
+  ]
 }
