@@ -25,7 +25,7 @@ Using VS Code [command palette](https://code.visualstudio.com/docs/getstarted/us
 - Start writing `CHKware ..`
 - Select a sample from dropdown you desire to use. <br><br>
 
-![Preview](https://user-images.githubusercontent.com/45073703/219438462-a9cfb5e2-a2a9-4c1d-8a34-78fb1cb3fe83.gif)
+![Preview](./preview-01.gif)
 
 ## List of sample snippets of document specifications
 
@@ -44,7 +44,7 @@ Using VS Code [command palette](https://code.visualstudio.com/docs/getstarted/us
 - validate: Validate spec with setting data
 - validate: Validate spec with setting data and variables
 
-[**Workflow**](<(https://chkware.com/docs/examples/workflow-examples)>)
+[**Workflow**](https://chkware.com/docs/examples/workflow-examples)
 
 - workflow: Minimal workflow spec
 - workflow: Set data for validate task
