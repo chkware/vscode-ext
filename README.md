@@ -1,9 +1,9 @@
-# CHKware extension for Visual Studio Code
-
-Write [**CHKware** ](https://chkware.com/) (Check-Ware) config files using this _Visual Studio Code_ extension. Edit and modify `.chk` files.
-
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/chkware.svg?style=social&label=Follow%20%40chkware)](https://twitter.com/chkware)
 [![Known Vulnerabilities](https://snyk.io/test/github/chkware/vscode-ext/main/badge.svg)](https://snyk.io/test/github/chkware/vscode-ext)
+
+# CHKware extension for Visual Studio Code
+
+Edit and modify [**CHKware** ](https://chkware.com/) (Check-Ware) spec. (`.chk`) files using this _Visual Studio Code_ extension.
 
 ## Setup
 
