@@ -19,7 +19,7 @@ Using VS Code [command palette](https://code.visualstudio.com/docs/getstarted/us
 - Start writing `CHKware ..`
 - Select a sample from dropdown you desire to use. <br><br>
 
-![Preview](./preview-01.gif)
+![Preview](./preview.gif)
 
 ## List of sample snippets of document specifications
 
