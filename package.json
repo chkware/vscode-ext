@@ -4,7 +4,7 @@
   "description": "Write and execute .chk spec files | CHKware • Low-code API quality testing, and automation toolbox.",
   "version": "0.3.0",
   "publisher": "chkware",
-  "license": "MPL-2.0",
+  "license": "MIT",
   "icon": "icon.png",
   "repository": {
     "type": "git",
